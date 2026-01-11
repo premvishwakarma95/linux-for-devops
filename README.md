@@ -1,2 +1,1 @@
-# linux-for-devops
-Linux overview
+# Linux for devops
