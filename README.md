@@ -12,3 +12,13 @@
 - pm2 start index.js --name "alzato"
 - pm2 list
 - pm2 logs alzato
+
+---
+
+## What is linux?
+- It is an OS.
+## Ways to use Linux?
+- WSL - (Windows subsytem for linux)
+- Virtual box
+- Buy VPS in aws or azure select linux os then use that.
+- Install Vagrant, it's a software that will allow you to run linux.
