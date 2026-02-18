@@ -17,7 +17,7 @@
 
 ## What is linux?
 - It is an OS.
-- 
+  
 ## Ways to use Linux?
 - WSL - (Windows subsytem for linux)
 - Virtual box
@@ -44,4 +44,10 @@ That’s it. This will:
 - Set WSL 2 as default
 Then Restart your PC.
 
-# Linux commands
+## Ways to access VM - (Virtual machine).
+- SSH - (secure shell)
+- RDP - (Remote desktop protocol)
+- AnyDesk - (It's, i think a software to get access of any system remotely)
+
+## What is kernel?
+What is like a heart of the machine that has access of everything linux kernel name is Linux kernel. And kernel is written in C language so to talk wiht kernel se use shell. Shell is a termial with the help of this we interact with kernel. for example we want to say make directory to kernel use `mkdir` command.
