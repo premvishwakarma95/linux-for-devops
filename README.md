@@ -60,6 +60,8 @@ What is like a heart of the machine that has access of everything linux kernel n
 - `df -h` - command to check disk usage i mean disk info
 - `free -h` - command to check Ram usage
 
+---
+
 ## Commands
 - `date` - command to know date in terminal
 - `ls` - command to show list folder whatever inside existing directory
