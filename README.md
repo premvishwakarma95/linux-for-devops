@@ -43,3 +43,5 @@ That’s it. This will:
 - Install Ubuntu
 - Set WSL 2 as default
 Then Restart your PC.
+
+# Linux commands
