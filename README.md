@@ -75,3 +75,4 @@ What is like a heart of the machine that has access of everything linux kernel n
 -  `rm fileName.txt` - it stand for remove. Command to delete file. only you can delete one file.
 -  `rm -r /devops` - Command to delete all things inside devops directory. and also remove devops directory and inside all files and directory.
 -  `rmdir /devops` - Command to remove directory.
+-  1 hour 6 minits
