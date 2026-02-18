@@ -51,3 +51,9 @@ Then Restart your PC.
 
 ## What is kernel?
 What is like a heart of the machine that has access of everything linux kernel name is Linux kernel. And kernel is written in C language so to talk wiht kernel se use shell. Shell is a termial with the help of this we interact with kernel. for example we want to say make directory to kernel use `mkdir` command.
+- Application (Terminal) -> Shell -> Kernal -> Hardware
+
+## Hardware basic commands.
+- `top` - command to check cpu usage or process that are running
+- `df -h` - command to check disk usage i mean disk info
+- `free -h` - command to check Ram usage
