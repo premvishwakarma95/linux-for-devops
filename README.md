@@ -59,3 +59,17 @@ What is like a heart of the machine that has access of everything linux kernel n
 - `top` - command to check cpu usage or process that are running
 - `df -h` - command to check disk usage i mean disk info
 - `free -h` - command to check Ram usage
+
+## Commands
+- `date` - command to know date in terminal
+- `ls` - command to show list folder whatever inside existing directory
+- `mkdir devops` - command will make directory with name devops
+- `ls -l` - command will show directory with some info like when and who created and permissions in short it lists in detail.
+- `pwd` - it stands for present working directory. command tell in which location you are i mean current location.
+- `touch new_file.txt` - command to create file not folder file.
+- `clear` - command to clear the terminal
+-  `cd dirctory_name` - stands for change directory. command to go to any directory.
+-  `cd ..` - command to back in previous directory.
+-  `rm fileName.txt` - it stand for remove. Command to delete file. only you can delete one file.
+-  `rm -r /devops` - Command to delete all things inside devops directory. and also remove devops directory and inside all files and directory.
+-  `rmdir /devops` - Command to remove directory.
