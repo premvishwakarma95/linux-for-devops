@@ -89,4 +89,5 @@ What is like a heart of the machine that has access of everything linux kernel n
 -  `wc newFile.txt` - it stands for word count. result would be like this `1 4 16 newFile.txt` 1 is count of line, 4 word, 16 byte means size of file.
 -  `ln -s /home/ubuntu/devops/newFile.txt soft-link` - this command will create soft link of this newfile.txt file means like we put desktop icon in desktop but it is stored in desktop just path or link and one more important thing if main file newfile.txt deleted then soft-link will be red and will have nothing means deleted too.
 -  `ln /home/ubuntu/devops/newFile.txt hard-link` this will create hard link file with name hard-link and will not be deleted if we delete main file.
-
+-  `cut -b 1-4 newFile.txt` - this command will print 1 to 4 byte content from file -b stands for byte and as we know one character is of 1 byte in string.
+- 1 hour 30 minits.
