@@ -62,7 +62,7 @@ What is like a heart of the machine that has access of everything linux kernel n
 
 ---
 
-## Commands
+## File management and Common Commands
 - `date` - command to know date in terminal
 - `ls` - command to show list folder whatever inside existing directory
 - `mkdir devops` - command will make directory with name devops
