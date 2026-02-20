@@ -62,7 +62,7 @@ What is like a heart of the machine that has access of everything linux kernel n
 
 ---
 
-## File management and Common Commands
+## Basic File management Commands
 - `date` - command to know date in terminal
 - `ls` - command to show list folder whatever inside existing directory
 - `mkdir devops` - command will make directory with name devops
@@ -75,4 +75,11 @@ What is like a heart of the machine that has access of everything linux kernel n
 -  `rm fileName.txt` - it stand for remove. Command to delete file. only you can delete one file.
 -  `rm -r /devops` - Command to delete all things inside devops directory. and also remove devops directory and inside all files and directory.
 -  `rmdir /devops` - Command to remove directory.
--  1 hour 6 minits
+-  `cat newFile.txt` - command to read the content of a file.
+-  `echo "hello dosto"` - command to print text in the termial.
+-  `echo "hello dosto" > newFile.txt` - this command will write this hello dosto text inside file newFile.txt, even if newFile will not exist then create and write this code this is what this command does.
+-  `zcat newfile.zip` - command to read file of zip file.
+-  `head newFile.txt` - This command will print the first five lines of the file.
+-  `tail newFile.txt` - This command will print the last five lines of the file.
+-  `tail -f newFile.txt` - This command will print last lines and also the file will open if anything comes in file in last then it will print in realtime, press ctrl + c to exist the editor.
+
