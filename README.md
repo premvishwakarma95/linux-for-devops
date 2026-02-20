@@ -82,4 +82,11 @@ What is like a heart of the machine that has access of everything linux kernel n
 -  `head newFile.txt` - This command will print the first five lines of the file.
 -  `tail newFile.txt` - This command will print the last five lines of the file.
 -  `tail -f newFile.txt` - This command will print last lines and also the file will open if anything comes in file in last then it will print in realtime, press ctrl + c to exist the editor.
+-  `cp newFile.txt devops/` - cp stands for copy. this command will copy newFile.txt to the devops folder.
+-  `cp -r cloud devops/` - This command will copy cloud folder to devops folder.
+-  `mv newFile.txt ../devops/` - mv stands for move. this command will move newFile.txt to devops folder.
+-  `mv devops/ linux_for_devops` - this command will rename from devops to linux_for_devops.
+-  `wc newFile.txt` - it stands for word count. result would be like this `1 4 16 newFile.txt` 1 is count of line, 4 word, 16 byte means size of file.
+-  `ln -s /home/ubuntu/devops/newFile.txt soft-link` - this command will create soft link of this newfile.txt file means like we put desktop icon in desktop but it is stored in desktop just path or link and one more important thing if main file newfile.txt deleted then soft-link will be red and will have nothing means deleted too.
+-  `ln /home/ubuntu/devops/newFile.txt hard-link` this will create hard link file with name hard-link and will not be deleted if we delete main file.
 
