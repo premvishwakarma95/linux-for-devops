@@ -126,4 +126,4 @@ ssh -i private-key.pem ubuntu@56.7.8.4.3
 - `id` - this command will tell login user id and group id of current login user.
 - `sudo` - it is a group which has permission to do crazy things that's a sudo.
 - `sudo shutdown` - Command to shutdown the system. Instance would be stopped by this command.
-2:15
+2:15 hours
