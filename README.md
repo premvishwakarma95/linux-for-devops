@@ -90,4 +90,15 @@ What is like a heart of the machine that has access of everything linux kernel n
 -  `ln -s /home/ubuntu/devops/newFile.txt soft-link` - this command will create soft link of this newfile.txt file means like we put desktop icon in desktop but it is stored in desktop just path or link and one more important thing if main file newfile.txt deleted then soft-link will be red and will have nothing means deleted too.
 -  `ln /home/ubuntu/devops/newFile.txt hard-link` this will create hard link file with name hard-link and will not be deleted if we delete main file.
 -  `cut -b 1-4 newFile.txt` - this command will print 1 to 4 byte content from file -b stands for byte and as we know one character is of 1 byte in string.
-- 1 hour 30 minits.
+- `diff hello.txt newFile.txt` - This command will show the difference between these two file. i mean text.
+
+---
+
+## There are two editor for linux command line Vi, vim editor and nano editor.
+### vi editor
+command to open file and editor file using vi editor.
+```bash
+vi hello.txt
+```
+This command will open hello.txt file and click `i` button to insert text or edit file, if want to come out from insert mode click `escape` button. click `: and write wq` and enter this will close the editor. `:` then `wq`.
+
