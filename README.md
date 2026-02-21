@@ -57,14 +57,17 @@ What is like a heart of the machine that has access of everything linux kernel n
 
 ## Hardware basic commands.
 - `top` - command to check cpu usage or process that are running
+- `df` - command to check disk detail.
 - `df -h` - command to check disk usage i mean disk info
 - `free -h` - command to check Ram usage
+- `nohup free -h` - this command will create file nohup.out and put all text or info that we get in editor inside nohup.out file. I mean we use this command to store logs of something.
 
 ---
 
 ## Basic File management Commands
 - `date` - command to know date in terminal
 - `ls` - command to show list folder whatever inside existing directory
+- `ls -a` - this will also list hidden folders and hidden folder start wiht . (dot) .ssh like this
 - `mkdir devops` - command will make directory with name devops
 - `ls -l` - command will show directory with some info like when and who created and permissions in short it lists in detail.
 - `pwd` - it stands for present working directory. command tell in which location you are i mean current location.
@@ -95,10 +98,18 @@ What is like a heart of the machine that has access of everything linux kernel n
 ---
 
 ## There are two editor for linux command line Vi, vim editor and nano editor.
-### vi editor
+### vi and vim editor both are same.
 command to open file and editor file using vi editor.
 ```bash
 vi hello.txt
 ```
 This command will open hello.txt file and click `i` button to insert text or edit file, if want to come out from insert mode click `escape` button. click `: and write wq` and enter this will close the editor. `:` then `wq`.
 
+---
+
+## About ssh.
+It stands for secure shell. ssh port will always be 22. this is a way to access vps virtual private server. SSH uses keys to connect to with server ssh command uses private key and EC2 intance will have public key so with the help of these key we can connect.
+```bash
+ssh -i private-key.pem ubuntu@56.7.8.4.3
+# 56.7.8.4.3 - this is a private ip of ec2 instance
+```
