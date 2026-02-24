@@ -130,6 +130,6 @@ ssh -i private-key.pem ubuntu@56.7.8.4.3
 - `which bash` - this command will tell which bash i am using like \usr\bin\bash this folder bash i am using this command tells this. I mean tell file path of that thing.
 - `which cp` - same as above command so `which` command is used to know about thing it could be anything.
 - `id` - this command will tell login user id and group id of current login user.
-- `sudo` - it is a group which has permission to do crazy things that's a sudo.
+- `sudo` - It lets a permitted user run commands as root (admin). it is a group which has permission to do crazy things that's a sudo.
 - `sudo shutdown` - Command to shutdown the system. Instance would be stopped by this command.
 2:15 hours
