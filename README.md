@@ -105,6 +105,12 @@ vi hello.txt
 ```
 This command will open hello.txt file and click `i` button to insert text or edit file, if want to come out from insert mode click `escape` button. click `: and write wq` and enter this will close the editor. `:` then `wq`.
 
+### nano editor.
+```bash
+nano file.txt
+```
+This command will open file.txt in editor after editing press `ctrl + 0` then click `Enter button` this will save and then `ctrl + X` this will close the editor.
+
 ---
 
 ## About ssh.
