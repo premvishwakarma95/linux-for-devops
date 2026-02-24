@@ -132,4 +132,5 @@ ssh -i private-key.pem ubuntu@56.7.8.4.3
 - `id` - this command will tell login user id and group id of current login user.
 - `sudo` - It lets a permitted user run commands as root (admin). it is a group which has permission to do crazy things that's a sudo.
 - `sudo shutdown` - Command to shutdown the system. Instance would be stopped by this command.
+- `sudo su` - switch from normal user to root user and if want to back to normal user use `exit` command.
 2:15 hours
