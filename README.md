@@ -160,7 +160,7 @@ So this is apt and what it does.
 ## User and file management.
 If you will run permission command without sudo then it will give error.
 
-User and group management
+User and group management commands
 - `sudo useradd -m jethalal` - command to add user. this command will add jethalal user and -m make directory of that user name /home/jethalal.
 - `sudo passwd jethalal` - command to add password for jethalal user.
 - `su jethalal` - command to switch from ubuntu to jethalal.
@@ -172,4 +172,8 @@ User and group management
 - `sudo gpasswd -M iyer,tappu,bhide developers` - command to add multiple user in the group -M stand for multiple.
 - `sudo groupdel developers` - command to delete group like here we are deleting developers group.
 - `cat /etc/group` - command to see the list of groups.
+
+File permission commands
+- `ls -l` - command to see the file and directory with file permission.
+- 2:50
 
