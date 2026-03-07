@@ -203,3 +203,5 @@ chmod 755 file.sh
 - 5 → r-x (Group)
 - 5 → r-x (Others)
 
+`chmod 777 devops` - command to change the permission of directory.
+
