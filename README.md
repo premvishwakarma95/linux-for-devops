@@ -127,7 +127,7 @@ ssh -i private-key.pem ubuntu@56.7.8.4.3
 - `uptime` - command to know how much time has system been up or open.
 - `who` - this command will tell which has loggedIn and how many users and at what time they logged in.
 - `whoami` - this command will tell current loggedIn user in terminal and tells user name.
-- `which bash` - this command will tell which bash i am using like \usr\bin\bash this folder bash i am using this command tells this. I mean tell file path of that thing.
+- `which bash` - this command will tell which bash i am using or where bash exactly is i mean path like \usr\bin\bash this folder bash i am using this command tells this. I mean tell file path of that thing.
 - `which cp` - same as above command so `which` command is used to know about thing it could be anything.
 - `id` - this command will tell login user id and group id of current login user.
 - `sudo` - It lets a permitted user run commands as root (admin). it is a group which has permission to do crazy things that's a sudo.
@@ -137,7 +137,7 @@ ssh -i private-key.pem ubuntu@56.7.8.4.3
 
 ---
 
-## what is `apt` in linux?
+### what is `apt` in linux?
 apt is a commandline application package manager. And you can run apt command with the help of sudo only because super user only have access to install package and manage package that's why.
 
 ```bash
@@ -146,3 +146,19 @@ sudo apt insatll docket.io
 sudo apt-get install docker.io
 // this apt-get will try to install from all over the internet so this is a difference between apt and apt-get.
 ```
+
+common commands of apt.
+- `sudo apt-get udpate` - command to udpate system. now system has all security and all udpated thing.
+- `sudo apt-get docker.io` - command to install docker.
+- `sudo apt remove docker.io` - command to remove docker from system.
+- `which docker` - command to know where docker is in system or in direcotry. this will tell /usr/bin/docker
+
+So this is apt and what it does.
+
+---
+
+## User and file management.
+If you will run permission command without sudo then it will give error.
+
+commands
+`sudo useradd -m jethalal` - command to add user. this command will add jethalal user and -m make directory of that user name /home/jethalal.
