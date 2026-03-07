@@ -160,7 +160,7 @@ So this is apt and what it does.
 ## User and file management.
 If you will run permission command without sudo then it will give error.
 
-commands
+User and group management
 - `sudo useradd -m jethalal` - command to add user. this command will add jethalal user and -m make directory of that user name /home/jethalal.
 - `sudo passwd jethalal` - command to add password for jethalal user.
 - `su jethalal` - command to switch from ubuntu to jethalal.
@@ -168,7 +168,8 @@ commands
 - `cat /etc/passwd` - command to see the list of users.
 - Whenever we will create user then group will also be created with same of the user and if we install docker then docker name group also be created.
 - `sudo groupadd developers` - command to add group.
-- `cat /etc/group` - command to see the list of groups.
 - `sudo gpasswd -a jethalal developers` - command to add jethalal to developers group -a stand for add.
 - `sudo gpasswd -M iyer,tappu,bhide developers` - command to add multiple user in the group -M stand for multiple.
+- `sudo groupdel developers` - command to delete group like here we are deleting developers group.
+- `cat /etc/group` - command to see the list of groups.
 
