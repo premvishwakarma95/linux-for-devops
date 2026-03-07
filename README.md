@@ -134,3 +134,15 @@ ssh -i private-key.pem ubuntu@56.7.8.4.3
 - `sudo shutdown` - Command to shutdown the system. Instance would be stopped by this command.
 - `sudo su` - switch from normal user to root user and if want to back to normal user use `exit` command.
 - `sudo reboot` - this command will reboot your system means ec2 instance.
+
+---
+
+## what is `apt` in linux?
+apt is a commandline application package manager. And you can run apt command with the help of sudo only because super user only have access to install package and manage package that's why.
+
+```bash
+sudo apt insatll docket.io
+// this will install docker.io if available in the system. i mean will try to find in systme in that we are running this command
+sudo apt-get install docker.io
+// this apt-get will try to install from all over the internet so this is a difference between apt and apt-get.
+```
