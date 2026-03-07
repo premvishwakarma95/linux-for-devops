@@ -203,4 +203,4 @@ chmod 755 file.sh
 - 7 → rwx (Owner)
 - 5 → r-x (Group)
 - 5 → r-x (Others)
-- 3:03 hours
+- 3:03 hours video stop time
