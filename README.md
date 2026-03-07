@@ -175,6 +175,7 @@ User and group management commands
 
 File permission commands
 - `ls -l` - command to see the file and directory with file permission.
+- `chmod 777 devops` - command to change the permission of directory. so here chmod is command to change permission, 777 is permission, devops is a directory name.
 - when i this `ls -l` then i got this `drwxrwxr-x 2 ubuntu ubuntu 4096 Feb 18 18:14 devops` so here this is permision of folder devops. when permission start with `d` it means it's a directory and we break this permission `drwxrwxr-x` in three pair like d means directory `rwx` first three pair means user, second pair `rwx` means group, and third pair means `r-x` other user. `r` means read, `w` means write, `x` means execute.
 - check below table to understand correctly
 Linux File Permission Values
@@ -202,6 +203,4 @@ chmod 755 file.sh
 - 7 → rwx (Owner)
 - 5 → r-x (Group)
 - 5 → r-x (Others)
-
-`chmod 777 devops` - command to change the permission of directory.
-
+- 3:03 hours
