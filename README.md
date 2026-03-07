@@ -161,4 +161,8 @@ So this is apt and what it does.
 If you will run permission command without sudo then it will give error.
 
 commands
-`sudo useradd -m jethalal` - command to add user. this command will add jethalal user and -m make directory of that user name /home/jethalal.
+- `sudo useradd -m jethalal` - command to add user. this command will add jethalal user and -m make directory of that user name /home/jethalal.
+- `sudo passowd jethalal` - command to add password for jethalal user.
+- `su jethalal` - command to switch from ubuntu to jethalal.
+- `sudo userdel jethalal` - command to delete user jethalal.
+
