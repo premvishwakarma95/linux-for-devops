@@ -5,7 +5,7 @@
 ###  with shubham (this is a YouTube channgel name) -> learn these below things from this channgel
 
 ### Check the below roadmap
-### Linux -> shell scripting -> networking basics -> github -> docker -> kubernnetives -> jenkins -> Argo cd -> prometheus, graphana -> aws
+### Linux -> shell scripting -> networking basics -> github -> docker -> kubernnetives -> jenkins -> Argo cd -> prometheus, graphana -> aws services
 
 ## PM2 commands
 - pm2 start npm --name "alzato" -- run start  // start and create service name
