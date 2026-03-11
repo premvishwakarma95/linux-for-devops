@@ -195,7 +195,8 @@ Permission Meaning
 - **r** = Read (4)
 - **w** = Write (2)
 - **x** = Execute (1)
-Example
+Example -
+(command to change the file permission)
 ```bash
 chmod 755 file.sh
 ```
