@@ -272,4 +272,8 @@ traceroute google.com
 2  10.0.0.1         5.342 ms
 3  172.217.160.78   18.234 ms
 ```
+- `tracepath` - same as traceroute.
+```bash
+tracepath google.com
+```
 
