@@ -295,4 +295,9 @@ Address: 142.250.183.46
 // DNS server used: 8.8.8.8
 // google.com resolves to 142.250.183.46
 ```
-
+- `hostname` - this command will the hostname of the server.
+```bash
+hostname
+// this command will show the all host of the server
+cat /etc/host
+```
