@@ -304,3 +304,22 @@ cat /etc/host
 - `ip address show` - command to show ip address and network ip.
 - `iwconfig` - command to show wireless network ips.
 - `whois google.com` - command to show all things about domain like domain name, registy domain, register url, created date, udpate date, which server.
+
+## General networking commands that we use.
+- `curl` - command to call api end points.
+```bash
+curl https://jsonplaceholder.typicode.com/posts
+```
+- `wget` - command to download anything from internet.
+```bash
+wget https://file-example.com/file.jpg
+```
+- `watch` - command to run anything in every two second.
+```bash
+watch top
+
+// command with given time, in every 5 second.
+watch -n 5 top
+```
+- `nmap -v google.com` - command to scan the server, check is there any port is open or not.
+
