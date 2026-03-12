@@ -301,3 +301,6 @@ hostname
 // this command will show the all host of the server
 cat /etc/host
 ```
+- `ip address show` - command to show ip address and network ip.
+- `iwconfig` - command to show wireless network ips.
+- `whois google.com` - command to show all things about domain like domain name, registy domain, register url, created date, udpate date, which server.
