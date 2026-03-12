@@ -228,3 +228,8 @@ sudo chgrp devops demoFile.txt
 - `zip -r backup.zip frontend/` - here zip is package, -r for recursively, backup.zip is the name of zip that we are creating, frontend/ is folder name inside this folder all the file will be in zip now.
 - Command to unzip the zip file.
 - `unzip backup.zip` - this will unzip the zip file.
+
+---
+
+## Command to transfer file from local to you ec2 server.
+
