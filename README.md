@@ -232,4 +232,9 @@ sudo chgrp devops demoFile.txt
 ---
 
 ## Command to transfer file from local to you ec2 server.
+```bash
+scp -i private-key.pem app.zip ubuntu@56.7.8.4:/home/ubuntu/
+```
+app.zip is file of our local system and copying in home/ubuntu folder.
+
 
