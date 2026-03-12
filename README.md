@@ -231,10 +231,16 @@ sudo chgrp devops demoFile.txt
 
 ---
 
-## Command to transfer file from local to you ec2 server.
+## Command to transfer or copy file from local to you ec2 server and from ec2 to local.
+scp stand for secure copy.
 ```bash
 scp -i private-key.pem app.zip ubuntu@56.7.8.4:/home/ubuntu/
 ```
-app.zip is file of our local system and copying in home/ubuntu folder.
+scp stand for secure copy, app.zip is file of our local system and copying in home/ubuntu folder. And app.zip is in current directory that why we are using app.zip.
+```bash
+scp -i private-key.pem ubuntu@56.7.8.4:/path/to/ec2/file /path/to/local/folder
+```
+This command will copy file from EC2 to our local machine.
+
 
 
