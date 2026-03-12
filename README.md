@@ -322,4 +322,5 @@ watch top
 watch -n 5 top
 ```
 - `nmap -v google.com` - command to scan the server, check is there any port is open or not.
+- 4:27
 
