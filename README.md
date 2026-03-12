@@ -218,3 +218,12 @@ this command will now make jethalal the owner of demoFile.txt
 // chgrp - change group and devops is the group
 sudo chgrp devops demoFile.txt
 ```
+
+---
+
+## Compression command means making zip in server.
+- First install the `zip` package. This package will zip the cloud files.
+- `sudo apt install zip`
+- commadn to zip the file
+- `zip -r backup.zip frontend/` - here zip is package, -r for recursively, backup.zip is the name of zip that we are creating, frontend/ is folder name inside this folder all the file will be in zip now.
+
