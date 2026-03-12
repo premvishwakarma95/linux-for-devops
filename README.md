@@ -364,3 +364,40 @@ Example output:
 ```bash
 2026-03-12 ERROR Database connection failed
 ```
+
+---
+
+## Linux volume management.
+### `lsblk` stands for List Block Devices.
+It will show all the EBS that attached to this connected EC2. It is a Linux command used to display information about storage devices such as:
+- Hard disks
+- SSDs
+- USB drives
+- Partitions
+- Mounted volumes
+It shows the structure of disks and partitions in a tree format. 💾
+```bash
+lsblk
+```
+Example output:
+```bash
+NAME    MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+xvda    202:0    0   20G  0 disk
+├─xvda1 202:1    0   19G  0 part /
+└─xvda2 202:2    0    1G  0 part [SWAP]
+```
+
+### command to know free disk or space.
+```bash
+df -h
+````
+Output
+```bash
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/xvda1       20G   12G   7G   64% /
+tmpfs           487M     0  487M   0% /dev/shm
+/dev/xvdf       100G   20G   80G  20% /data
+```
+
+### LVM (logical volume manager).
+Learn about when you need to add more space to the server at that time you need to create EBS then attache to EC2 then make it usable at that time you use it.
