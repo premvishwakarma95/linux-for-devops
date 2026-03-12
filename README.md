@@ -399,5 +399,5 @@ tmpfs           487M     0  487M   0% /dev/shm
 /dev/xvdf       100G   20G   80G  20% /data
 ```
 
-### LVM (logical volume manager).
+### `LVM` (logical volume manager).
 Learn about when you need to add more space to the server at that time you need to create EBS then attache to EC2 then make it usable at that time you use it.
