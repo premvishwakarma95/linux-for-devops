@@ -322,5 +322,45 @@ watch top
 watch -n 5 top
 ```
 - `nmap -v google.com` - command to scan the server, check is there any port is open or not.
-- 4:27
 
+---
+
+## Pro linux commands.
+what is awk?
+- `awk` is a powerful text-processing command-line tool in Linux/Unix used to search, filter, and manipulate text or data in files. In awk data should be formatted like csv comma separated or tsv tab separated value.
+```bash
+awk '/INFO/ {count++} END {print "The count of INFO IS", count}' app.log
+```
+What it does
+- /INFO/ → searches for lines containing INFO
+- {count++} → increments a counter for each match
+- END {print ...} → after reading the whole file, prints the count
+- app.log → the log file being analyzed
+Output example
+```bash
+The count of INFO IS 16
+````
+✅ This command counts how many times "INFO" appears in app.log.
+
+---
+
+What is `sed`?
+- `sed` stands for Stream Editor. It is a Linux command used to search, replace, delete, or modify text in a file or stream of data without opening the file in an editor. 🧑‍💻
+- Example
+```bash
+sed 's/hello/hi/' file.txt
+```
+Output - This replaces the first occurrence of "hello" with "hi" in each line.
+
+---
+
+What is `grep`?
+`grep` is a Linux command used to search for specific text or patterns inside files. 🔍
+```bash
+grep ERROR app.log
+```
+- This prints all lines containing ERROR in app.log.
+Example output:
+```bash
+2026-03-12 ERROR Database connection failed
+```
