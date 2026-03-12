@@ -276,4 +276,8 @@ traceroute google.com
 ```bash
 tracepath google.com
 ```
+- `mtr` stand for My Traceroute. If we want to get info of these two commands `ping` and `tracepath` then run only `mtr` this will give info of both commands.
+```bash
+mtr google.com
+```
 
