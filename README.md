@@ -208,7 +208,13 @@ chmod 755 file.sh
 
 ### Change ownership of the file
 ```bash
-// chown - means change owner.
+// chown - means change owner and jethalal is a user.
 sudo chown jethalal demoFile.txt
 ```
 this command will now make jethalal the owner of demoFile.txt
+
+### change group of the file.
+```bash
+// chgrp - change group and devops is the group
+sudo chgrp devops demoFile.txt
+```
