@@ -280,4 +280,19 @@ tracepath google.com
 ```bash
 mtr google.com
 ```
+- `nslookup` stands for Name Server Lookup. Find IP Address of a Domain
+```bash
+nslookup google.com
+
+output -
+Server:  8.8.8.8
+Address: 8.8.8.8#53
+
+Non-authoritative answer:
+Name:    google.com
+Address: 142.250.183.46
+
+// DNS server used: 8.8.8.8
+// google.com resolves to 142.250.183.46
+```
 
