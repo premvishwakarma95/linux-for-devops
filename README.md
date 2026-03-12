@@ -242,5 +242,34 @@ scp -i private-key.pem ubuntu@56.7.8.4:/path/to/ec2/file /path/to/local/folder
 ```
 This command will copy file from EC2 to our local machine.
 
+---
 
+## Networking commands.
+- ping stand for `Packet InterNet Groper`. ping command check is website working or also show the ip address of the vps and check internet working or not.
+```bash
+ping ibrcloud.com
+```
+- `netstat` stand for network statistics. In simple terms, netstat shows what network connections your computer or server currently has.
+```bash
+netstat
+```
+- `ifconfig` stands for Interface Configuration. It helps you see IP address, MAC address, network status, and traffic information of your system.
+```bash
+ifconfig
+
+// Output of the command
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>
+inet 172.31.25.10
+netmask 255.255.255.0
+ether 02:7b:64:1a:3f:21
+```
+- `traceroute` - This will tell how we get interact and get data from any server. this show all the networks. if we request for google.com then first it will go to network provider server then DNS then it send to the ip of the server then google then google will give response and response will come to the user and all this networks comes this command shows these networks.
+```bash
+traceroute google.com
+
+// Output- This will show every network hop between your machine and the Google server.
+1  192.168.1.1      1.123 ms
+2  10.0.0.1         5.342 ms
+3  172.217.160.78   18.234 ms
+```
 
