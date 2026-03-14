@@ -133,6 +133,7 @@ ssh -i private-key.pem ubuntu@56.7.8.4.3
 - `sudo` - It lets a permitted user run commands as root (admin). it is a group which has permission to do crazy things that's a sudo.
 - `sudo shutdown` - Command to shutdown the system. Instance would be stopped by this command.
 - `sudo su` - switch from normal user to root user and if want to back to normal user use `exit` command.
+- `exit` - command to back from root user to normal user that were logged in before `sudo su` command.
 - `sudo reboot` - this command will reboot your system means ec2 instance.
 
 ---
