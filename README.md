@@ -12,6 +12,10 @@
 - pm2 start index.js --name "alzato"
 - pm2 list
 - pm2 logs alzato
+- pm2 status
+- pm2 kill
+- pm2 stop all
+- pm2 delete service_name
 
 ---
 
