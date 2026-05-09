@@ -406,3 +406,209 @@ tmpfs           487M     0  487M   0% /dev/shm
 
 ### `LVM` (logical volume manager).
 Learn about when you need to add more space to the server at that time you need to create EBS then attache to EC2 then make it usable at that time you use it.
+
+---
+
+# Linux for DevOps 🚀
+
+This repository contains beginner-to-advanced Linux notes specially designed for DevOps learning. It includes Linux basics, shell commands, networking, user management, permissions, SSH, package management, compression, file transfer, monitoring tools, and many real-world DevOps-related commands.
+
+The roadmap followed in this repository is:
+
+```text
+Linux → Shell Scripting → Networking Basics → GitHub → Docker → Kubernetes → Jenkins → ArgoCD → Prometheus & Grafana → AWS Services
+```
+
+These notes are created while learning DevOps concepts from the YouTube channel **Shubham** and are written in simple language with examples for easy understanding.
+
+---
+
+# 📚 Topics Covered
+
+## ✅ Linux Basics
+- What is Linux
+- Linux Kernel
+- Shell & Terminal
+- Ways to use Linux (WSL, VirtualBox, VPS, Vagrant)
+
+---
+
+## ✅ WSL Installation
+- Install Ubuntu using WSL on Windows
+- PowerShell setup
+- WSL2 configuration
+
+---
+
+## ✅ File Management Commands
+Learn important Linux commands like:
+- `ls`
+- `pwd`
+- `mkdir`
+- `touch`
+- `rm`
+- `cp`
+- `mv`
+- `cat`
+- `echo`
+- `tail -f`
+- `head`
+- `diff`
+- `wc`
+- `ln`
+- and more...
+
+---
+
+## ✅ System Monitoring Commands
+Commands used to monitor system resources:
+- `top`
+- `free -h`
+- `df -h`
+- `uptime`
+- `who`
+- `whoami`
+- `id`
+
+---
+
+## ✅ Linux Editors
+- `vi` / `vim`
+- `nano`
+
+---
+
+## ✅ SSH & Remote Access
+- SSH basics
+- Connect to EC2/VPS
+- SCP file transfer
+- Private & Public keys
+
+---
+
+## ✅ Package Management
+Understanding:
+- `apt`
+- `apt-get`
+- Installing & removing packages
+
+Example:
+```bash
+sudo apt install docker.io
+```
+
+---
+
+## ✅ User & Group Management
+Commands related to:
+- Creating users
+- Deleting users
+- Groups
+- Permissions
+- Ownership
+
+Examples:
+```bash
+sudo useradd -m username
+sudo passwd username
+chmod 755 file.sh
+sudo chown user file.txt
+```
+
+---
+
+## ✅ Linux File Permissions
+Detailed explanation of:
+- Read (`r`)
+- Write (`w`)
+- Execute (`x`)
+- Permission numbers (`777`, `755`, etc.)
+
+---
+
+## ✅ Compression Commands
+- `zip`
+- `unzip`
+
+---
+
+## ✅ Networking Commands
+Important networking tools:
+- `ping`
+- `netstat`
+- `ifconfig`
+- `traceroute`
+- `tracepath`
+- `mtr`
+- `nslookup`
+- `hostname`
+- `curl`
+- `wget`
+- `watch`
+- `nmap`
+
+---
+
+## ✅ Advanced Linux Commands
+### `awk`
+Powerful text processing tool.
+
+### `sed`
+Stream editor used for replacing and editing text.
+
+### `grep`
+Search specific text or patterns in files.
+
+---
+
+## ✅ Linux Storage & Volume Management
+- `lsblk`
+- `df -h`
+- Introduction to LVM
+- Understanding disks, partitions, and mounted volumes
+
+---
+
+## ✅ PM2 Commands
+Useful PM2 process manager commands for Node.js applications:
+```bash
+pm2 start npm --name "app-name" -- run start
+pm2 logs app-name
+pm2 stop all
+pm2 delete service_name
+```
+
+---
+
+# 🎯 Goal of This Repository
+
+The goal of this repository is to:
+- Build strong Linux fundamentals for DevOps
+- Learn real-world Linux commands
+- Understand server management
+- Prepare for DevOps tools like Docker, Kubernetes, Jenkins, and AWS
+- Create easy-to-understand notes for revision
+
+---
+
+# 🛠️ Future Topics
+The following topics will be added later:
+- Shell Scripting
+- Git & GitHub
+- Docker
+- Kubernetes
+- Jenkins
+- ArgoCD
+- Prometheus
+- Grafana
+- AWS Services
+
+---
+
+# 📌 Note
+These notes are written in simple language for learning purposes and quick revision during DevOps preparation.
+
+---
+
+# ⭐ Support
+If you find this repository helpful, consider giving it a star ⭐
